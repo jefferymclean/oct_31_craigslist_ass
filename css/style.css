@@ -1,15 +1,5 @@
 body {
-  background-color: #FFEFD5;
-  /*.firstdiv {
-  	float: left;
-  }
-  .seconddiv {
-  	float: left;
-  }*/ }
-  body button {
-    float: left;
-    margin-top: 3px;
-    margin-left: 10px; }
+  background-color: #FFEFD5; }
   body .header {
     text-align: center; }
     body .header h1 {
@@ -17,24 +7,38 @@ body {
       letter-spacing: 0.5px;
       font-size: 134px;
       text-shadow: 3px 3px #2C97D1; }
+  body .header:hover {
+    opacity: 0;
+    -webkit-transition: opacity 1.69s ease-in-out; }
   body ul.nav {
     display: block;
     margin: 0px auto 10px auto;
-    width: 246px; }
+    width: 221px; }
   body .world {
     display: block;
     margin: 0px auto;
     border: 5px solid;
     color: #2C97D1;
-    box-shadow: 10px 10px 5px #888888; }
-  body .row {
-    /*margin-left: 190px;
-    margin-top: 10px;
-    margin-bottom: 10px;*/ }
-    body .row .middle-col {
-      text-align: center; }
+    box-shadow: 10px 10px 5px #888888;
+    margin-bottom: 32px; }
+  body .row .middle-col {
+    text-align: center;
+    display: block;
+    margin: 0px auto 10px auto;
+    width: 250px; }
   body .src {
     border: 2px solid;
-    color: #ffff7e; }
+    color: #FFFF7E; }
   body .navdiv {
     float: left; }
+  body .table {
+    font-family: Courier New;
+    width: calc(100% - 50px);
+    margin: 0 25px 10px 25px; }
+  body tr:nth-child(2n) {
+    color: green; }
+  body tr:nth-child(2n+1) {
+    color: #0066ff; }
+  body th {
+    color: black;
+    padding: 13px; }

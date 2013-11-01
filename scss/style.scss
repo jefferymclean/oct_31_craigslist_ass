@@ -2,11 +2,6 @@ body {
 	background-color: #FFEFD5; 
 
 
-	button {
-		float: left; 
-		margin-top: 3px;
-		margin-left: 10px;
-	}
 	.header {
 		text-align: center; 
 		h1 {
@@ -17,10 +12,17 @@ body {
 
 		}
 	}
+	.header:hover { 
+        opacity: 0;
+        -webkit-transition: opacity 1.69s ease-in-out;
+	}
+
+
+
 	ul.nav {
 		display: block; 
 		margin: 0px auto 10px auto;
-		width: 246px;
+		width: 221px;
 	}
 	.world {
 		display: block;
@@ -28,32 +30,45 @@ body {
 		border: 5px solid;
 		color: #2C97D1;
 		box-shadow: 10px 10px 5px #888888;
+		margin-bottom: 32px;
 		// margin-left: 503px;
 	}
-
+	
 	.row {
 		.middle-col {
 		 	text-align: center; 	
-		}
-		/*margin-left: 190px;
-		margin-top: 10px;
-		margin-bottom: 10px;*/ 
+		 	display: block; 
+			margin: 0px auto 10px auto;
+			width: 250px;
+		} 
 	}
-
-	/*.firstdiv {
-		float: left;
-	}
-	.seconddiv {
-		float: left;
-	}*/
-
 	
 	.src {
 		border: 2px solid;
-		color: #FFFF7E
+		color: #FFFF7E;
 	}
 	
 	.navdiv {
 		float: left; 
 	}
+	.table {
+		font-family: Courier New;
+		width: calc(100% - 50px);
+		margin: 0 25px 10px 25px; 
+	}
+	tr:nth-child(2n) {
+		color: green
+	} 
+	tr:nth-child(2n+1) {
+		color: #0066FF
+	} 
+	th {
+		color: black; 
+		padding: 13px; 
+	}
+
+
+
+
+
 }
